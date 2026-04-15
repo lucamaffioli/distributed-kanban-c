@@ -1,0 +1,15 @@
+# --- CARTELLE DI COMPILAZIONE ---
+# Ignora le intere cartelle e tutto il loro contenuto
+obj/
+bin/
+
+# --- FILE BINARI E OGGETTO SPARSI (Per sicurezza) ---
+*.o
+*.out
+*.exe
+
+# --- FILE DI SISTEMA E IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
